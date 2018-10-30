@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,500,600,700|Indie+Flower:100,200,300,500,600,700');
 body {
     position: relative;
-    padding-top: 50px;
+    padding-top: 30px;
 }
 
 /*------------------------------------------Backgroung colors*/
@@ -31,39 +31,80 @@ body {
     letter-spacing: 1px;
     text-align: center;
     font-weight: 600;
-;
+    ;
 }
-.navbar li i{
+
+.navbar li i {
     padding-right: 5px;
 }
 
 /*-------------------------------------------Headre*/
 
-.logo {
-    height: 50px;
-    width: 100px;
-    padding: 0 0;
+.header-text {
+    text-align: center;
+
 }
 
-img {
+.logo img {
+    height: 220px;
     width: 100%;
 }
 
-a:focus,
-a:hover {
-    color: #0b0e11;
+.bg-image {
+    background: url("../images/student-line-up.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
 
-a {
-    color: #fafafa;
+.img-rounded {
+    border-radius: 25px;
 }
 
-span {
-    padding-left: 5px;
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
 }
-
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
 /*---------------------Footer*/
 
 footer {
     color: #cccccc;
+}
+
+/*--------------------@media*/
+
+@media(min-width: 480px) {
+    .logo {
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 15px;
+    }
+}
+
+@media(min-width: 740px) {
+    .logo {
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 15px;
+    }
+}
+
+@media(min-width: 992px) {
+    .logo {
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-top: 15px;
+    }
 }
