@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,500,600,700|Indie+Flower:100,200,300,500,600,700');
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,200,300,500,600,700|Spicy+Rice:100,200,300,500,600,700");
 body {
     position: relative;
     padding-top: 30px;
@@ -21,7 +21,6 @@ body {
     background-color: #6a6f72;
 }
 
-
 /*------------------------------------------Nav-Bar*/
 
 .navbar {
@@ -40,12 +39,13 @@ body {
     text-align: center;
     font-weight: 600;
     list-style: none;
-    margin-top: -5px;
+    margin-top: 3px;
     padding-right: 0px;
     padding-left: 0px;
 }
 
-.navbar li a:hover {
+.navbar li a:hover,
+.navbar li a:focus {
     color: black;
     background-color: #fafafa;
 
@@ -54,7 +54,7 @@ body {
 }
 
 .navbar li a {
-    font-family: "Indie+Flower", sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #ffffff;
     font-size: 14px;
     text-decoration: none;
@@ -67,8 +67,13 @@ body {
 
 /*-------------------------------------------Headre*/
 
-.header-text {
+.header-text,
+h2,
+h4 {
     text-align: center;
+    font-family: 'Spicy Rice', cursive;
+    letter-spacing: 2px;
+    color: #f4f4f4;
 
 }
 
@@ -78,7 +83,7 @@ body {
 }
 
 .bg-image {
-    background: url("../images/student-line-up.jpg");
+    background: url("../images/bjj-students-dark.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -92,15 +97,6 @@ body {
     border-radius: 25px;
 }
 
-.opaque-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
 .row {
     margin-right: 0;
     margin-left: 0;
@@ -110,6 +106,18 @@ body {
 
 footer {
     color: #cccccc;
+}
+
+/* ------------------------Buttons*/
+
+.btn {
+    background-color: #398439;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid #f11515;
+    border-radius: 15px;
+    margin-left: 45%;
+    margin-right: 45%;
+    padding:10px 25px;
 }
 
 /*--------------------@media*/
@@ -136,4 +144,11 @@ footer {
         padding-right: 20%;
         padding-top: 15px;
     }
+}
+
+/*--------------------------modal--*/
+
+.modal-title {
+    color: #5cb85c;
+    background-color: #353839;
 }

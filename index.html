@@ -15,21 +15,21 @@
 <body class="container-fluid">
     <!-- nav bar -->
     <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="ontainer-fluid ">
-            <ul class="">
-                <li class="col-xs-2 col-md-2 " style="background:red;">
+        <div class=" container-fluid ">
+            <ul class="bg-color-ul-nav">
+                <li class="col-xs-2 col-md-2 ">
                     <a href="#home"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
                 </li>
-                <li class="col-xs-2 col-md-2 " style="background:blue;">
+                <li class="col-xs-2 col-md-2 ">
                     <a href="#about"><i class="fa fa-exclamation-circle" aria-hidden="true"></i><span>About</span></a>
                 </li>
-                <li class="col-xs-2 col-md-2 " style="background:orange;">
+                <li class="col-xs-2 col-md-2 ">
                     <a href="#benefits"><i class="fa fa-heartbeat" aria-hidden="true"></i><span>Whay BJJ</span></a>
                 </li>
-                <li class="col-xs-2 col-md-2 " style="background:purple;">
+                <li class="col-xs-2 col-md-2 ">
                     <a href="#whatIsBjj"><i class="fa fa-question-circle" aria-hidden="true"></i><span>About BJJ</span></a>
                 </li>
-                <li class="col-xs-2 col-md-2 " style="background:green;">
+                <li class="col-xs-2 col-md-2 ">
                     <a href="#contact"><i class="fa fa-envelope" aria-hidden="true"></i><span>Contacy</span></a>
                 </li>
             </ul>
@@ -37,19 +37,23 @@
         </div>
     </nav>
     <!-- home page -->
-    <headre class="row">
+    <headre class="row" id="home">
         <div class="bg-image">
-            <div class="opaque-overlay">&nbsp;</div>
             <div class="logo  ">
                 <img src="assets/images/logo.png" class="img-rounded" alt="logo of the athlone BJJ school"></img>
             </div>
             <div class="col-md-12 header-text ">
-                <h1>Brazilian jiu-jitsu</h1>
+                <h1>Brazilian jiu-jitsu is a lifestyle</h1>
+            </div>
+            <div class="col-md-12 alert-container">
+                <h2>Try BJJ</h2>
+                <h4>Fisrt Lesson Is Free. Book Now.</h4>
+                <p><button class="btn " data-toggle='modal' data-target='#bookingLessonModal'>Book!</button></p>
             </div>
         </div>
     </headre>
     <!-- about page -->
-    <div class="row">
+    <div class="row" id="about">
         <div class="bg-about">
             <div class="col-md-4" style="background:red">
                 the section about profesor of school
@@ -148,3 +152,4 @@
 </body>
 
 </html>
+<span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
