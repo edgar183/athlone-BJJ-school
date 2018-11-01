@@ -5,6 +5,14 @@ body {
     padding-left: 0;
 }
 
+.page-bg-image {
+    background-image: url("../images/bjj-school.jpeg");
+    position: sticky;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .container-fluid {
     padding-left: 0;
     padding-right: 0;
@@ -48,9 +56,11 @@ body {
 .navbar li a:focus {
     color: black;
     background-color: #fafafa;
-
     border: 10px solid rgb(255, 255, 255);
     border-radius: 8px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
 }
 
 .navbar li a {
@@ -58,6 +68,9 @@ body {
     color: #ffffff;
     font-size: 14px;
     text-decoration: none;
+     transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
 }
 
 .navbar li i {
@@ -72,7 +85,7 @@ h2,
 h4 {
     text-align: center;
     font-family: 'Spicy Rice', cursive;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
     color: #f4f4f4;
 
 }
@@ -102,6 +115,13 @@ h4 {
     margin-left: 0;
 }
 
+.header-h2-text {
+    letter-spacing: 15px;
+    text-transform: uppercase;
+    color: #ef4545;
+    font-size: 50px;
+}
+
 /*---------------------Footer*/
 
 footer {
@@ -110,14 +130,29 @@ footer {
 
 /* ------------------------Buttons*/
 
-.btn {
+p .btn {
     background-color: #398439;
     font-family: 'Roboto', sans-serif;
-    border: 1px solid #f11515;
     border-radius: 15px;
-    margin-left: 45%;
-    margin-right: 45%;
-    padding:10px 25px;
+    margin-left: 40%;
+    margin-right: 40%;
+    padding: 10px 60px;
+    color: #fafafa;
+    font-size: 20px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+}
+
+.btn.focus,
+.btn:focus,
+.btn:hover {
+    color: #333;
+    text-decoration: none;
+    background: #fafafa;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
 }
 
 /*--------------------@media*/
