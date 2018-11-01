@@ -7,7 +7,7 @@ body {
 
 .page-bg-image {
     background-image: url("../images/bjj-school.jpeg");
-    position: sticky;
+    /*position: sticky;*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -18,7 +18,7 @@ body {
     padding-right: 0;
 }
 
-/*------------------------------------------Backgroung colors*/
+/*---------------------------------------Backgroung colors*/
 
 .bg-color-footer {
     background-color: #4e4e4e;
@@ -29,7 +29,11 @@ body {
     background-color: #6a6f72;
 }
 
-/*------------------------------------------Nav-Bar*/
+.bg-section {
+    background: #fafafa;
+}
+
+/*---------------------------------------Nav-Bar*/
 
 .navbar {
     min-height: 40px;
@@ -68,7 +72,7 @@ body {
     color: #ffffff;
     font-size: 14px;
     text-decoration: none;
-     transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
 }
@@ -78,7 +82,7 @@ body {
     font-size: 25px;
 }
 
-/*-------------------------------------------Headre*/
+/*---------------------------------------Headre*/
 
 .header-text,
 h2,
@@ -122,20 +126,36 @@ h4 {
     font-size: 50px;
 }
 
-/*---------------------Footer*/
+/*---------------------------------------About page*/
+
+.about-section {
+    display: inline-block;
+    width: 100%;
+    min-height: 50px;
+}
+
+.section-image {
+    margin: 10px 0;
+}
+
+.section-text {
+    font-size: 16px;
+    font-family: 'Spicy Rice', sans-serif;
+}
+
+/*---------------------------------------Footer*/
 
 footer {
     color: #cccccc;
 }
 
-/* ------------------------Buttons*/
+/*---------------------------------------Buttons*/
 
 p .btn {
     background-color: #398439;
     font-family: 'Roboto', sans-serif;
     border-radius: 15px;
-    margin-left: 40%;
-    margin-right: 40%;
+    margin-left: 30%;
     padding: 10px 60px;
     color: #fafafa;
     font-size: 20px;
@@ -155,7 +175,7 @@ p .btn {
     -webkit-transition: all 0.35s ease-in-out;
 }
 
-/*--------------------@media*/
+/*---------------------------------------@media*/
 
 @media(min-width: 480px) {
     .logo {
@@ -181,7 +201,7 @@ p .btn {
     }
 }
 
-/*--------------------------modal--*/
+/*---------------------------------------modal*/
 
 .modal-title {
     color: #5cb85c;
