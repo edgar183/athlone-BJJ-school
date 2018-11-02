@@ -3,14 +3,15 @@ body {
     position: relative;
     padding-top: 30px;
     padding-left: 0;
+    font-family: 'Spicy Rice', sans-serif;
 }
 
 .page-bg-image {
     background-image: url("../images/bjj-school.jpeg");
-    /*position: sticky;*/
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
 
 .container-fluid {
@@ -115,8 +116,7 @@ h4 {
 }
 
 .row {
-    margin-right: 0;
-    margin-left: 0;
+    margin: 25px 0 50px 0;
 }
 
 .header-h2-text {
@@ -128,19 +128,61 @@ h4 {
 
 /*---------------------------------------About page*/
 
-.about-section {
+.section-style {
     display: inline-block;
     width: 100%;
-    min-height: 50px;
 }
 
 .section-image {
     margin: 10px 0;
+    position: static;
+    max-width: 100%;
+    height: 300px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 10px;
 }
 
 .section-text {
     font-size: 16px;
     font-family: 'Spicy Rice', sans-serif;
+    display: inline-block;
+    text-align: justify;
+}
+
+table {
+    border: 1px solid black;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+th,
+td {
+    border: 1px solid black;
+    width: 50%;
+    height: 50px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #398439;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    word-spacing: 3px;
+    text-transform: uppercase;
+    color: #ef4545;
+}
+
+iframe {
+    width: 100%;
+    margin-bottom: 10px;
 }
 
 /*---------------------------------------Footer*/
