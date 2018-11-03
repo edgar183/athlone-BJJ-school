@@ -7,7 +7,7 @@ body {
 }
 
 .page-bg-image {
-    background-image: url("../images/bjj-school.jpeg");
+    background-image: url("../images/background-page.JPG");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -68,7 +68,8 @@ body {
     -webkit-transition: all 0.35s ease-in-out;
 }
 
-.navbar li a {
+.navbar li a,
+.burger-buttom {
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
     font-size: 14px;
@@ -81,6 +82,12 @@ body {
 .navbar li i {
     padding-right: 5px;
     font-size: 25px;
+}
+
+.navbar-toggle {
+    margin-right: 4px;
+    margin-bottom: 2px;
+    margin-top: 2px;
 }
 
 /*---------------------------------------Headre*/
@@ -126,7 +133,7 @@ h4 {
     font-size: 50px;
 }
 
-/*---------------------------------------About page*/
+/*---------------------------------------page sections*/
 
 .section-style {
     display: inline-block;
@@ -225,6 +232,7 @@ p .btn {
         padding-right: 0;
         padding-top: 15px;
     }
+
 }
 
 @media(min-width: 740px) {
