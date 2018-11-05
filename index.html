@@ -21,8 +21,8 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-        <div class=" container-fluid " >
-            <ul class="bg-color-ul-nav navbar-collapse collapse" id="navbar" >
+        <div class=" container-fluid ">
+            <ul class="bg-color-ul-nav navbar-collapse collapse" id="navbar">
                 <li class="col-xs-2 col-md-2 ">
                     <a href="#home"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
                 </li>
@@ -55,7 +55,9 @@
                 <div class="col-md-12 alert-container">
                     <h2 class="header-h2-text">Try BJJ</h2>
                     <h4>Fisrt Lesson Is Free. Book Now.</h4>
-                    <p><button class="btn " data-toggle='modal' data-target='#bookingLessonModal'>Book!</button></p>
+                    <div class="col-xs-2 col-xs-offset-5 col-sm-4  col-md-4 col-lg-4  align-items-center ">
+                        <p><button class="btn " data-toggle='modal' data-target='#bookingLessonModal'>Book!</button></p>
+                    </div>
                 </div>
             </div>
         </headre>
@@ -95,7 +97,9 @@
                 </div>
                 <div class="col-xs-12 col-sm-4 col-md-4 bg-section">
                     <h4 class="section-title">Location Of The School</h4>
-                    <iframe src="https://www.google.com/maps/embed?pb=" width="600" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=" width="600" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
                 </div>
             </div>
         </div>
@@ -127,23 +131,51 @@
         <div class="row" id="whatIsBjj">
             <div class="bg-about section-style">
                 <div class="col-xs-12 col-sm-4 col-md-4 bg-section">
-                    <h4 class="section-title"> Helps you get in shape</h4>
-                    <p class="section-text">The amount of calories you burn doing live sparring in <strong>Brazilian jiu jitsu </strong> is ridiculous. Jiu jitsu works out both your anerobic and aerobic systems, giving you great cardio endurance. In addition to working on your
-                        cardio, the sports also help you build muscles, often in areas that are least developed. The grappling art use muscles very rarely used during the day—so it gives you a chance to develop major muscle groups along with muscles that
-                        you would not otherwise develop just lifting weights.
-                    </p>
+                    <h4 class="section-title">Brazilian jiu-jitsu in action</h4>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" width="560" height="350" src="https://www.youtube.com/embed/_VdrQjVhsLE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <p class="section-text">The life of training in <strong>Brazilian jiu-jitsu</strong> hapens on <em>ground</em> all the time, be redy. </p>
                 </div>
                 <div class="col-xs-12 col-sm-4 col-md-4 bg-section">
-                    <h4 class="section-title">Patience and Discipline</h4>
-                    <p class="section-text">An impatient jiu jitsu player is an unsuccessful jiu jitsu player. This is because timing and rhythm are vital to the physics behind jiu jitsu technique. Executing a lock or throw at the right moment feels effortless; forcing one at
-                        the wrong time is next to impossible. Practicing in this context builds patience and self-discipline, and helps reduce stress.
+                    <h4 class="section-title">History of BJJ</h4>
+                    <p class="section-text"><strong>Brazilian Jiu Jitsu</strong>, although obviously similar in many respects to Judo and other traditional systems of Japanese Jiu Jitsu, differs in some fundamental ways from all other related systems. Judo was originally designed
+                        as a powerful system of self-defense that also included a sportive component and the idea of self-cultivation and the mutual benefit of members of society. Presently, although the techniques of Judo may certainly be applied in
+                        real fighting situations (and many practitioners of "sport" Judo have applied their skills very effectively in non-sportive confrontations), the emphasis in most schools is on sport competition.
                     </p>
+                    <p class="section-text">
+                        Brazilian Jiu Jitsu has followed a different course in the last 80 years. The <strong>Gracie</strong> challenge and participation in countless free fighting events has led to a different emphasis in fighting strategy and the development
+                        of unique rules for BJJ sport competition. Brazilian Jiu Jitsu is divided into three broad categories, each mutually supportive of the others;
+                        <strong>self-defense</strong> (including striking techniques and unarmed techniques against armed opponents), <strong>free fighting competition</strong> (commonly referred to as "vale tudo" or "anything goes" events, now popularly
+                        called MMA), and <strong>sport grappling </strong>with and without the gi (matches that include a wide range of submission holds, but no striking). Even the rules of sport grappling matches are designed to ingrain the proper strategy
+                        to be applied in the street.
+                    </p>
+                    <audio controls autoplay>
+                    <source src="#" type="audio/mpeg">
+                    <source src="https://soundcloud.com/isilence/brazilian-jiu-jitsu"></source>Your browser does not support HTML5 audio.
+                    </audio>
                 </div>
                 <div class="col-xs-12 col-sm-4 col-md-4 bg-section">
-                    <h4 class="section-title"> Teaches value of hard work</h4>
-                    <p class="section-text">When you start out you are getting thrown and submitted at will. But you will start to see that as you put more time into your practice, it takes you longer to lose, and you lose less and less. And then you put more time in <strong>you will eventually win</strong>                        against those that you were unable to beat before. Jiu jitsu teaches you the value of hard work, because you actually get to see the fruits of your labor every time you spar. Your progress can be seen; it’s tangible. This lesson
-                        in jiu jitsu can be taken and applied to all areas of your life. Getting good at jiu jitsu is just like getting good at anything else, you need to stay the path, be consistent, and practice mindfully.
-                    </p>
+                    <h4 class="section-title">Pictures of sport</h4>
+                    <div id="carousel-Controls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="assets/images/bjj-action-matts.jpg" alt="BJJ training on matts">
+                            </div>
+                            <div class="item">
+                                <img src="/assets/images/bjj-sparing.jpg" alt="Sparing of two studentys">
+                            </div>
+                            <div class="item">
+                                <img src="/assets/images/jiu-jitsu-competition.jpg" alt="BJJ competition in action">
+                            </div>
+                        </div>
+                        <a class="carousel-control left" href="#carousel-Controls" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                         </a>
+                        <a class="carousel-control right" href="#carousel-Controls" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            </a>
+                    </div>
                 </div>
             </div>
         </div>
