@@ -12,3 +12,4 @@ If users are not familiar with the sport and why the BJJ is good for them, they 
 * As a user that wants to know more about the BJJ, he can click about BJJ link and read or watch a video about the sport. 
 * As a user that wants to get in touch with the school, he can do so by clicking a contact link and fill in the form. 
 
+Link to page  https://edgar183.github.io/athlone-BJJ-school/
