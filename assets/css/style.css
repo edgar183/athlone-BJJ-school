@@ -200,12 +200,39 @@ tr:nth-child(even) {
     padding-bottom: 15PX;
 }
 
-
+#more {
+    display: none;
+}
 
 /*---------------------------------------Footer*/
 
 footer {
     color: #cccccc;
+}
+
+.list-inline>li {
+    display: block;
+}
+
+.social-links i {
+    margin-right: 10px;
+}
+
+/*---------------------------------------Contact form*/
+
+.contact-form {
+    margin-bottom: 15px;
+}
+
+.contact-form button {
+    margin-top: 10px;
+    font-weight: 700;
+    background-color: #398439;
+}
+
+.contact-form .btn:focus,
+.contact-form .btn:hover {
+    background-color: #337ab7;
 }
 
 /*---------------------------------------Buttons*/
