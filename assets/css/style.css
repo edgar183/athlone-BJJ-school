@@ -273,7 +273,18 @@ p .btn {
         padding-right: 0;
         padding-top: 15px;
     }
+}
 
+@media(max-width:690px) {
+    .navbar li a {
+        display: contents;
+    }
+    .navbar li i {
+        display: none;
+    }
+    .navbar li {
+        padding-left: 15px;
+    }
 }
 
 @media(min-width: 740px) {
