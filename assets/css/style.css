@@ -138,6 +138,7 @@ h4 {
 .section-style {
     display: inline-block;
     width: 100%;
+    background: #fafafa;
 }
 
 .section-image {
