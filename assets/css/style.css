@@ -7,7 +7,7 @@ body {
 }
 
 .page-bg-image {
-    background-image: url("../images/background-page.JPG");
+    background-image: url("../images/bg-all-page-1.JPG");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -143,13 +143,13 @@ h4 {
 }
 
 .section-image {
-    margin: 10px 0;
+    margin: auto;
     position: static;
     max-width: 100%;
-    height: 300px;
     padding-right: 15px;
     padding-left: 15px;
     padding-bottom: 10px;
+    display: flex;
 }
 
 .section-text {
@@ -191,6 +191,7 @@ tr:nth-child(even) {
 
 .embed-responsive-16by9 {
     margin-bottom: 10px;
+    padding-bottom: 100%;
 }
 
 .carousel-inner>.item>img {
@@ -204,6 +205,11 @@ tr:nth-child(even) {
 
 #more {
     display: none;
+}
+
+.form-wrapper {
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 /*---------------------------------------Footer*/
@@ -244,12 +250,16 @@ p .btn {
     font-family: 'Roboto', sans-serif;
     border-radius: 15px;
     padding: 10px 50px;
-    margin-left: -15px;
     color: #fafafa;
     font-size: 20px;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
+}
+
+.book-button {
+    display: flex;
+    margin: auto;
 }
 
 .center-block {
@@ -295,6 +305,9 @@ p .btn {
         padding-right: 10%;
         padding-top: 15px;
     }
+    .collapse{
+        display: none;
+    }
 }
 
 @media(min-width: 992px) {
@@ -311,3 +324,4 @@ p .btn {
     color: #5cb85c;
     background-color: #353839;
 }
+
