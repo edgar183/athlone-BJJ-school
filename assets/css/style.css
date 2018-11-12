@@ -4,6 +4,7 @@ body {
     padding-top: 30px;
     padding-left: 0;
     font-family: 'Spicy Rice', sans-serif;
+    max-width: 1028px;
 }
 
 .page-bg-image {
@@ -39,6 +40,8 @@ body {
 
 .navbar {
     min-height: 40px;
+    max-width: 1028px;
+    margin: auto;
 }
 
 .navbar-default {
@@ -305,7 +308,7 @@ p .btn {
         padding-right: 10%;
         padding-top: 15px;
     }
-    .collapse{
+    .collapse {
         display: none;
     }
 }
@@ -324,4 +327,3 @@ p .btn {
     color: #5cb85c;
     background-color: #353839;
 }
-
