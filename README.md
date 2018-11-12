@@ -3,6 +3,7 @@
 The web application of one-page website about local Brazilian jiu-jitsu school. 
 The page has 5 sections that inform a user about the school and its times that they are opened, and location. 
 Foe user that don't know about BJJ  benefits of the sort there is some informational sections. And this school offers the first lesson free booking options at the landing page. 
+
 [Athlone BJJ School](https://edgar183.github.io/athlone-BJJ-school/)
 
 ## UX
@@ -27,55 +28,56 @@ For the users that are already training, but looking for a new school to join th
 
 ### Existing Features
 
--Book button feature on landing page allows a user to book a free first lesson, by fill in a Modal pop up form.
--Contact form at bottom of the page allows the user to contact with the school, by filling in the contact form and clicking send. 
+- Book button feature on landing page allows a user to book a free first lesson, by fill in a Modal pop up form.
+- Contact form at bottom of the page allows the user to contact with the school, by filling in the contact form and clicking send. 
  
 ### Features Left to Implement
 
--Show full text without "reading more" button when columns are stacked on top of each other. 
+- Show full text without "reading more" button when columns are stacked on top of each other. 
 ## Technologies Used
 
-1.Languages
-  ..*HTML, 
-  ..*CSS
-  ..*JavaScript
+1. Languages
+   - HTML, 
+   - CSS,
+   - JavaScript
 
-1.[Bootstrap](http://getbootstrap.com/docs/3.3/) 
-   -The bootstrap was used to shape the page, rows and columns, as well to add elements to page link nav bar and buttons, and some icons. 
-1.[Cloud9 IDE](https://aws.amazon.com/cloud9/)
+1. [Bootstrap](http://getbootstrap.com/docs/3.3/) 
+   - The bootstrap was used to shape the page, rows and columns, as well to add elements to page link nav bar and buttons, and some icons. 
+1. [Cloud9 IDE](https://aws.amazon.com/cloud9/)
      - Ws used to develop the project. 
 
 ## Testing
-1.Browser
-..*The page was tested using Chrome and Firefox browsers. The goal of this test was to make sure the fonts are loading on both of the browsers and the animations are the same as well. 
-..*The version of the chrome is - 70.0.3538.77 official Build
-..*The version of Firefox is - 63.0.1 Firefox Quantum
-..*The HTML and CSS code was validated by [W3C]( http://validator.w3.org/)
-..*The website was tested for responsive on different screen sizes. By resizing the browser window to a specific breakpoint the expected result was tested, columns stock top on each other at 767px  width screen size. 
-
+- Browser
+   - The page was tested using Chrome and Firefox browsers. The goal of this test was to make sure the fonts are loading on both of the browsers and the animations are the same as well. 
+   - The version of the chrome is - 70.0.3538.77 official Build
+   - The version of Firefox is - 63.0.1 Firefox Quantum
+   - The HTML and CSS code was validated by [W3C]( http://validator.w3.org/)
+   - The website was tested for responsive on different screen sizes. By resizing the browser window to a specific breakpoint the expected result was tested, columns stock top on each other at 767px  width screen size. 
+- User Stories 
 1. Lessons timetable:
-    ..1. Go to the "About " section of the page.
-    ..2. Fined timetable in the middle column. 
+   1. Go to the "About " section of the page.
+   2. Fined timetable in the middle column. 
+    
 1. Book free lesson:
-    ..1. Click Book button on the landing page.
-   ..2. Fill in the mane and email fields.
-   ..3. Click Book button.
+   1. Click Book button on the landing page.
+   2. Fill in the mane and email fields.
+   3. Click Book button.
 1. Find out more about BJJ:
-    ..1. Go to the "About BJJ " section of the page.
-    ..2. Fined 3 column section page with video text and images showing how the sport looks like. 
+    1. Go to the "About BJJ" section of the page.
+    2. Fined 3 column section page with video text and images showing how the sport looks like. 
 1. Contact form:
-    ..1. Go to the "Contact" section of the page.
-    ..2. Try to submit the empty form and verify that an error message about the required fields appears
-    ..3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    ..4. Try to submit the form with all inputs valid.
+    1. Go to the "Contact" section of the page.
+    2. Try to submit the empty form and verify that an error message about the required fields appears
+    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
+    4. Try to submit the form with all inputs valid.
 
 ## Deployment
 Creating a repository on the GitHub website and using the terminal in cloud9 to push it into a new repository.
 
 ### Content
--Text for History of BJJ was copied from the [Shen Wu History of Brazilian Jiu Jitsu](http://www.shenwu.com/bjjhistory.html).
--Some parts of Why BJJ was copied from the [Examined Existence article The 8 Benefits of Doing Jiu-Jitsu and Judo](https://examinedexistence.com/the-8-benefits-of-doing-jiu-jitsu-and-judo/)
+- Text for History of BJJ was copied from the [Shen Wu History of Brazilian Jiu Jitsu](http://www.shenwu.com/bjjhistory.html).
+- Some parts of Why BJJ was copied from the [Examined Existence article The 8 Benefits of Doing Jiu-Jitsu and Judo](https://examinedexistence.com/the-8-benefits-of-doing-jiu-jitsu-and-judo/)
 
 ### Media
--The foto of the professor is from my personal collection.
--The other photos that are used in the site were obtained from google picture search with the licence for reuse with modifications. 
+- The foto of the professor is from my personal collection.
+- The other photos that are used in the site were obtained from google picture search with the licence for reuse with modifications. 
