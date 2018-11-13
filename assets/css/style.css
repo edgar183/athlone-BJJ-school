@@ -229,6 +229,10 @@ footer {
     margin-right: 10px;
 }
 
+.social-links a {
+    text-decoration: none;
+}
+
 /*---------------------------------------Contact form*/
 
 .contact-form {
