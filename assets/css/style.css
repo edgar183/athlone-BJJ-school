@@ -5,6 +5,7 @@ body {
     padding-left: 0;
     font-family: 'Spicy Rice', sans-serif;
     max-width: 1028px;
+    margin: auto;
 }
 
 .page-bg-image {
@@ -14,6 +15,7 @@ body {
     background-attachment: fixed;
     background-size: 100% 100%;
     margin-top: -15px;
+
 }
 
 .container-fluid {
@@ -34,6 +36,12 @@ body {
 
 .bg-section {
     background: #fafafa;
+}
+
+.shadow-box-wrapper {
+    -webkit-box-shadow: 0px -5px 10px 5px rgba(0, 0, 0, 0.59);
+    -moz-box-shadow: 0px -5px 10px 5px rgba(0, 0, 0, 0.59);
+    box-shadow: 0px -5px 10px 5px rgba(0, 0, 0, 0.59);
 }
 
 /*---------------------------------------Nav-Bar*/
