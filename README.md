@@ -44,7 +44,7 @@ For the users that are already training, but looking for a new school to join th
 1. [Bootstrap](http://getbootstrap.com/docs/3.3/) 
    - The bootstrap was used to shape the page, rows and columns, as well to add elements to page link nav bar and buttons, and some icons. 
 1. [Cloud9 IDE](https://aws.amazon.com/cloud9/)
-     - Ws used to develop the project. 
+     - Was used to develop the project. 
 1. [GitHub](https://github.com)
     - Used to host the website and upload repository
 1. [CSS matic](https://www.cssmatic.com/box-shadow)
