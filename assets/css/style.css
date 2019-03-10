@@ -1,105 +1,105 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,200,300,500,600,700|Spicy+Rice:100,200,300,500,600,700");
 body {
-    position: relative;
-    padding-top: 30px;
-    padding-left: 0;
-    font-family: 'Spicy Rice', sans-serif;
-    max-width: 1028px;
-    margin: auto;
+  position: relative;
+  padding-top: 30px;
+  padding-left: 0;
+  font-family: "Spicy Rice", sans-serif;
+  max-width: 1028px;
+  margin: auto;
+}
+html {
+  scroll-behavior: smooth;
 }
 
 .page-bg-image {
-    background-image: url("../images/bg-all-page-1.JPG");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
-    margin-top: -15px;
-
+  background-image: url("../images/bg-all-page-1.JPG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  margin-top: -15px;
 }
 
 .container-fluid {
-    padding-left: 0;
-    padding-right: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 /*---------------------------------------Backgroung colors*/
 
 .bg-color-footer {
-    background-color: #4e4e4e;
+  background-color: #4e4e4e;
 }
 
 .bg-color-ul-nav,
 .navbar-default {
-    background-color: #6a6f72;
+  background-color: #6a6f72;
 }
 
 .bg-section {
-    background: #fafafa;
+  background: #fafafa;
 }
 
 .shadow-box-wrapper {
-    -webkit-box-shadow: 0px -5px 10px 5px rgba(0, 0, 0, 0.59);
-    -moz-box-shadow: 0px -5px 10px 5px rgba(0, 0, 0, 0.59);
-    box-shadow: 0px -5px 10px 5px rgba(0, 0, 0, 0.59);
+  -webkit-box-shadow: 0px -5px 10px 5px rgba(0, 0, 0, 0.59);
+  -moz-box-shadow: 0px -5px 10px 5px rgba(0, 0, 0, 0.59);
+  box-shadow: 0px -5px 10px 5px rgba(0, 0, 0, 0.59);
 }
 
 /*---------------------------------------Nav-Bar*/
 
 .navbar {
-    min-height: 40px;
-    max-width: 1028px;
-    margin: auto;
+  min-height: 40px;
+  max-width: 1028px;
+  margin: auto;
 }
 
 .navbar-default {
-    border-color: transparent;
-
+  border-color: transparent;
 }
 
-
 .navbar li {
-    width: 20%;
-    letter-spacing: 1px;
-    text-align: center;
-    font-weight: 600;
-    list-style: none;
-    margin-top: 3px;
-    padding-right: 0px;
-    padding-left: 0px;
+  width: 20%;
+  letter-spacing: 1px;
+  text-align: center;
+  font-weight: 600;
+  list-style: none;
+  margin-top: 3px;
+  padding-right: 0px;
+  padding-left: 0px;
 }
 
 .navbar li a:hover,
 .navbar li a:focus {
-    color: black;
-    background-color: #fafafa;
-    border: 10px solid rgb(255, 255, 255);
-    border-radius: 8px;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
+  color: black;
+  background-color: #fafafa;
+  border: 10px solid rgb(255, 255, 255);
+  border-radius: 8px;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
 }
 
 .navbar li a,
 .burger-buttom {
-    font-family: 'Roboto', sans-serif;
-    color: #ffffff;
-    font-size: 14px;
-    text-decoration: none;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  font-size: 14px;
+  text-decoration: none;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
 }
 
 .navbar li i {
-    padding-right: 5px;
-    font-size: 25px;
+  padding-right: 5px;
+  font-size: 25px;
 }
 
 .navbar-toggle {
-    margin-right: 4px;
-    margin-bottom: 2px;
-    margin-top: 2px;
+  margin-right: 4px;
+  margin-bottom: 2px;
+  margin-top: 2px;
 }
 
 /*---------------------------------------Headre*/
@@ -107,235 +107,234 @@ body {
 .header-text,
 h2,
 h4 {
-    text-align: center;
-    font-family: 'Spicy Rice', cursive;
-    letter-spacing: 4px;
-    color: #f4f4f4;
-
+  text-align: center;
+  font-family: "Spicy Rice", cursive;
+  letter-spacing: 4px;
+  color: #f4f4f4;
 }
 
 .logo img {
-    height: 220px;
-    width: 100%;
+  height: 220px;
+  width: 100%;
 }
 
 .bg-image {
-    background: url("../images/bjj-students-dark.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
+  background: url("../images/bjj-students-dark.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
 }
 
 .img-rounded {
-    border-radius: 25px;
+  border-radius: 25px;
 }
 
 .row {
-    margin: 25px 0 50px 0;
+  margin: 25px 0 50px 0;
 }
 
 .header-h2-text {
-    letter-spacing: 15px;
-    text-transform: uppercase;
-    color: #ef4545;
-    font-size: 50px;
+  letter-spacing: 15px;
+  text-transform: uppercase;
+  color: #ef4545;
+  font-size: 50px;
 }
 
 /*---------------------------------------page sections*/
 
 .section-style {
-    display: inline-block;
-    width: 100%;
-    background: #fafafa;
+  display: inline-block;
+  width: 100%;
+  background: #fafafa;
 }
 
 .section-image {
-    margin: auto;
-    position: static;
-    max-width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    padding-bottom: 10px;
-    display: flex;
+  margin: auto;
+  position: static;
+  max-width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  display: flex;
 }
 
 .section-text {
-    font-size: 16px;
-    font-family: 'Spicy Rice', sans-serif;
-    display: inline-block;
-    text-align: justify;
+  font-size: 16px;
+  font-family: "Spicy Rice", sans-serif;
+  display: inline-block;
+  text-align: justify;
 }
 
 table {
-    border: 1px solid black;
-    width: 100%;
-    height: 50px;
-    text-align: center;
-    margin-bottom: 10px;
+  border: 1px solid black;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 th,
 td {
-    border: 1px solid black;
-    width: 50%;
-    height: 50px;
-    text-align: center;
+  border: 1px solid black;
+  width: 50%;
+  height: 50px;
+  text-align: center;
 }
 
 tr:nth-child(even) {
-    background-color: #398439;
+  background-color: #398439;
 }
 
 .section-title {
-    text-align: center;
-    font-size: 16px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 800;
-    word-spacing: 3px;
-    text-transform: uppercase;
-    color: #ef4545;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  word-spacing: 3px;
+  text-transform: uppercase;
+  color: #ef4545;
 }
 
 .embed-responsive-16by9 {
-    margin-bottom: 10px;
-    padding-bottom: 100%;
+  margin-bottom: 10px;
+  padding-bottom: 100%;
 }
 
-.carousel-inner>.item>img {
-    width: 100%;
-    height: 300px;
+.carousel-inner > .item > img {
+  width: 100%;
+  height: 300px;
 }
 
 .carousel-inner {
-    padding-bottom: 15PX;
+  padding-bottom: 15px;
 }
 
 #more {
-    display: none;
+  display: none;
 }
 
 .form-wrapper {
-    padding-left: 5px;
-    padding-right: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 /*---------------------------------------Footer*/
 
 footer {
-    color: #cccccc;
+  color: #cccccc;
 }
 
-.list-inline>li {
-    display: block;
+.list-inline > li {
+  display: block;
 }
 
 .social-links i {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 .social-links a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /*---------------------------------------Contact form*/
 
 .contact-form {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .contact-form button {
-    margin-top: 10px;
-    font-weight: 700;
-    background-color: #398439;
+  margin-top: 10px;
+  font-weight: 700;
+  background-color: #398439;
 }
 
 .contact-form .btn:focus,
 .contact-form .btn:hover {
-    background-color: #337ab7;
+  background-color: #337ab7;
 }
 
 /*---------------------------------------Buttons*/
 
 p .btn {
-    background-color: #398439;
-    font-family: 'Roboto', sans-serif;
-    border-radius: 15px;
-    padding: 10px 50px;
-    color: #fafafa;
-    font-size: 20px;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
+  background-color: #398439;
+  font-family: "Roboto", sans-serif;
+  border-radius: 15px;
+  padding: 10px 50px;
+  color: #fafafa;
+  font-size: 20px;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
 }
 
 .book-button {
-    display: flex;
-    margin: auto;
+  display: flex;
+  margin: auto;
 }
 
 .center-block {
-    float: none;
+  float: none;
 }
 
 .btn.focus,
 .btn:focus,
 .btn:hover {
-    color: #333;
-    text-decoration: none;
-    background: #fafafa;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
+  color: #333;
+  text-decoration: none;
+  background: #fafafa;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
 }
 
 /*---------------------------------------@media*/
 
-@media(min-width: 480px) {
-    .logo {
-        padding-left: 0;
-        padding-right: 0;
-        padding-top: 15px;
-    }
+@media (min-width: 480px) {
+  .logo {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 15px;
+  }
 }
 
-@media(max-width:690px) {
-    .navbar li a {
-        display: contents;
-    }
-    .navbar li i {
-        display: none;
-    }
-    .navbar li {
-        padding-left: 15px;
-    }
+@media (max-width: 690px) {
+  .navbar li a {
+    display: contents;
+  }
+  .navbar li i {
+    display: none;
+  }
+  .navbar li {
+    padding-left: 15px;
+  }
 }
 
-@media(min-width: 740px) {
-    .logo {
-        padding-left: 10%;
-        padding-right: 10%;
-        padding-top: 15px;
-    }
-    .collapse {
-        display: none;
-    }
+@media (min-width: 740px) {
+  .logo {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 15px;
+  }
+  .collapse {
+    display: none;
+  }
 }
 
-@media(min-width: 992px) {
-    .logo {
-        padding-left: 20%;
-        padding-right: 20%;
-        padding-top: 15px;
-    }
+@media (min-width: 992px) {
+  .logo {
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 15px;
+  }
 }
 
 /*---------------------------------------modal*/
 
 .modal-title {
-    color: #5cb85c;
-    background-color: #353839;
+  color: #5cb85c;
+  background-color: #353839;
 }
